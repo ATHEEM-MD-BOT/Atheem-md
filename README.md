@@ -1,3 +1,8 @@
+![Atheem Logo](_c9a1b1b2-752c-4ffb-a6c4-d1cd88861998.jpeg)
+
+
+
+
 **WELCOME 😊 IN ATHEEM MD BOT**
         # ATHEEM MD BOT
 
@@ -6,10 +11,6 @@
 > Powerful WhatsApp Multi-Device Bot built with **Baileys MD**.  
 
 > Easy to use, fast, and packed with 300+ commands!
-
-
-
-![Atheem Logo](_c9a1b1b2-752c-4ffb-a6c4-d1cd88861998.jpeg)
 
 
 
@@ -43,7 +44,9 @@
 
 
 
-**FOR HEROKU**
+<h4 align="center">2.**FOR HEROKU**</h4>
+
+
 <a href="https://heroku.com/deploy?template=https://github.com/athumani/atheem-md-bot" target="_blank">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" />
 </a>
