@@ -1,6 +1,30 @@
+## ⚙️ GET SESSION ID (ATHEEM MD BOT)
+
+To use the bot, you must generate a valid Session ID.
+
+### ✅ METHOD 1: Online Session Generator
+Use the Atheem Session Generator tool:
+
+- [CLICK HERE TO GENERATE](https://replit.com/@ATHEEM-TECH/AtheemSession)
+
+1. Open the link above.
+2. Click "Run".
+3. Scan the QR Code using your WhatsApp (Linked Devices).
+4. Copy the generated SESSION ID.
+5. Paste it in `config.js` or during Railway deployment.
+
+### ✅ METHOD 2: Manual (Using Termux)
+
+```bash
+pkg install git
+pkg install nodejs
+git clone https://github.com/ATHEEM-MD-BOT/Atheem-md.git
+cd Atheem-md
+npm install
+node session.js
 # Atheem-md
-Welcome 😊 in ATHEEM MD BOT 
-from pathlib import Path
+nowWelcome 😊 in ATHEEM MD BOT 
+
 
 # Recreate the README content after environment reset
 readme_content = """
