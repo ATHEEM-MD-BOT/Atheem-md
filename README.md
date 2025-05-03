@@ -13,8 +13,47 @@
 ![Atheem Logo](_c9a1b1b2-752c-4ffb-a6c4-d1cd88861998.jpeg)
 
 
+click here to get session id 
+const { default: makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys');
+const { Boom } = require('@hapi/boom');
+const fs = require('fs');
 
+async function connectBot() {
+    const { state, saveCreds } = await useMultiFileAuthState('session');
+    const sock = makeWASocket({
+        auth: state,
+        printQRInTerminal: false, // Hatutaki QR image, tutatumia base64 string
+    });
+
+    sock.ev.on('creds.update', saveCreds);
+
+    sock.ev.on('connection.update', (update) => {
+        const { connection, lastDisconnect, qr } = update;
+
+        if (qr) {
+            console.log('\nPAIRING CODE (Scan in WhatsApp):');
+            console.log(qr); // Hii ni base64 string
+        }
+
+        if (connection === 'close') {
+            const reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
+            if (reason === DisconnectReason.loggedOut) {
+                console.log('Logged out. Deleting session...');
+                fs.rmSync('session', { recursive: true, force: true });
+                connectBot();
+            } else {
+                console.log('Connection closed. Reconnecting...');
+                connectBot();
+            }
+        } else if (connection === 'open') {
+            console.log('BOT CONNECTED SUCCESSFULLY!');
+        }
+    });
+}
+
+connectBot();
 ---
+
 
 
 
@@ -38,27 +77,6 @@
 
 ### ✅ Pairing Your WhatsApp
 
-
-
-1. Click here to **get Pairing Code**:  
-
-   [GET PAIRING CODE](https://replit.com/@ATHEEM-TECH/AtheemPairing)
-
-
-
-2. Run it and copy the code (e.g. `123-456`).
-
-
-
-3. Open WhatsApp > Linked Devices > Link a Device > **Pair with Code**
-
-
-
-4. Enter the code to connect!
-
-
-
----
 
 
 
