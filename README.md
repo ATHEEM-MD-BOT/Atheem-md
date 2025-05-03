@@ -44,10 +44,10 @@
 
 
 
-<h4 align="center">2.**FOR HEROKU**</h4>
+<h4 align="center">FOR HEROKU</h4>
 
 
-<a href="https://heroku.com/deploy?template=https://github.com/athumani/atheem-md-bot" target="_blank">
+<a href="https://heroku.com/deploy?template=https://github.com/ATHEEM-MD-BOT/Atheem-md.git" target="_blank">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" />
 </a>
 
