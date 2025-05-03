@@ -40,6 +40,18 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=50&pause=4000&color=00FF00&lines=true&vCenter=true&width=815&height=100&lines=-**DEPLOY+NOW+ATHEEM+MD+BOT**)](https://git.io/typing-svg) 
 
 
+
+
+
+**FOR HEROKU**
+<a href="https://heroku.com/deploy?template=https://github.com/athumani/atheem-md-bot" target="_blank">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" />
+</a>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=800&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
+
+
+
 **FOR RAILWAY**
 
 
