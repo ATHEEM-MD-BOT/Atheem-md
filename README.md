@@ -1,3 +1,19 @@
+**WELCOME 😊 IN ATHEEM MD BOT**
+# ATHEEM MD BOT
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=50&pause=4000&color=00FF00&lines=true&vCenter=true&width=815&height=100&lines=ATHEEM-MD+BOT+✌️+𝟮𝟬𝟮𝟱)](https://git.io/typing-svg) 
+
+> Powerful WhatsApp Multi-Device Bot built with **Baileys MD**.  
+
+> Easy to use, fast, and packed with 300+ commands!
+
+
+
+![Atheem Logo](_c9a1b1b2-752c-4ffb-a6c4-d1cd88861998.jpeg)
+
+
+
+
 > **1️⃣Pair Code (Session ID)**
 
 <a href='https://caseyrhodeshub-7kak.vercel.app' target="_blank">
@@ -14,22 +30,8 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=800&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
 
-# ATHEEM MD BOT
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=50&pause=4000&color=00FF00&lines=true&vCenter=true&width=815&height=100&lines=ATHEEM-MD+BOT+✌️+𝟮𝟬𝟮𝟱)](https://git.io/typing-svg) 
-
-> Powerful WhatsApp Multi-Device Bot built with **Baileys MD**.  
-
-> Easy to use, fast, and packed with 300+ commands!
 
 
-
-![Atheem Logo](_c9a1b1b2-752c-4ffb-a6c4-d1cd88861998.jpeg)
-
-
-
-
-connectBot();
 ---
 
 
@@ -54,49 +56,3 @@ connectBot();
 
 
 
-### ✅ Pairing Your WhatsApp
-
-
-
-
-### ⚙️ Features
-
-
-
-- 300+ Powerful Commands
-
-- Group Tools (antilink, welcome, admin)
-
-- Downloader, AI Chat, Logo Maker
-
-- Music & Video, Anime, Modding, Pranks
-
-- Auto Typing, Auto Record, and more!
-
-
-
----
-
-
-
-### 👑 Developer
-
-
-
-**Owner:** [ATHEEM TECH](https://github.com/ATHEEM-MD-BOT)  
-
-**WhatsApp:** [+255742233117](https://wa.me/255742233117)
-
-"""
-
-
-
-# Save the README as a .md file
-
-readme_path = Path("/mnt/data/README_ATHEEM_MD_BOT.md")
-
-readme_path.write_text(readme_content)
-
-
-
-readme_path
